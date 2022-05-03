@@ -1,0 +1,78 @@
+@charset "utf-8";
+*{
+	font-family: Tahoma;
+}
+/* ----- CSS HEADER ----- */
+.title{
+	font-family: Tahoma;
+	margin: 50px 0;
+	text-align: center;
+	font-style: italic;
+	font-weight: 900;
+}
+
+.icon{
+    font-size: 50px;
+}
+.icon-head{
+	margin-top: 10px;
+	font-size: 30px;
+}
+.icon-head a{
+	color: #000;
+}
+.user{
+	margin: 0 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+.nav-item {
+	float: left;
+}
+.nav-item a {
+	font-family: Tahoma;
+	text-align: center;
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.nav-item a:hover {
+	color: #000;
+	font-size:large;
+	text-decoration: underline;
+}
+/* ----- CSS BODY ----- */
+.tieude-txt{
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 20px;
+	padding-top: 20px;
+	height: 100px;
+}
+.side_cuahang .col-12{
+	margin: 10px 0;
+}
+.side_cuahang a{
+	text-decoration: none;
+	color: #000;
+	font-family: Tahoma;
+}
+.side_cuahang a:hover{
+	text-decoration: underline;
+	font-size: large;
+}
+
+
+
+/* ----- CSS FOOTER ----- */
+.footer{
+	margin-top: 20px;
+}
+.row_icon{
+	margin-top: 20px;
+}
+.inp_email{
+	width: 300px;
+}

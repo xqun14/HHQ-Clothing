@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* ----- CSS HEADER ----- */
+
+h1.title{
+	font-family: Tahoma;
+	margin: 50px 0;
+	text-align: center;
+	font-style: italic;
+	font-weight: 900;
+}
+.icon{
+    font-size: 50px;
+}
+.icon-head{
+	margin-top: 10px;
+	font-size: 30px;
+}
+.icon-head a{
+	color: #000;
+}
+.user{
+	margin: 0 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+}
+li a {
+	font-family: Tahoma;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	color: #000;
+	font-size:large;
+	text-decoration: underline;
+}
+/* ----- BODY ----- */
+
+.input{
+	font-family: Tahoma;
+	border-radius: 15px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.tao_tai_khoan{
+	margin: 50px 42px;
+}
+.quen_mk{
+	color: rgb(165, 165, 165);
+}
+.quen_mk:hover{
+	color: #000;
+}
+h3{
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+.btn-dangnhap{
+	font-family: Tahoma;
+	height: 60px;
+	width: 250px;
+	font-size: 20px;
+	margin: 20px;
+	border-radius: 15px;
+}
+.btn-dangky{
+	font-family: Tahoma;
+	height: 60px;
+	width: 250px;
+	font-size: 20px;
+	margin: 20px;
+	border-radius: 15px;
+
+}
+.btn-taotk{
+	font-family: Tahoma;
+	height: 60px;
+	width: 320px;
+	font-size: 20px;
+	margin: 20px;
+}
+.link-primary{
+	text-decoration: none;
+}
+

@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link href="Bootstrap/css_bootstrap/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/cua_hang.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/chitiet_sp.css">
+	<script src="Bootstrap/js_bootstrap/bootstrap.js"></script>
+	<title>MIKEBEAR TSHIRT</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<!-- Heading -->
+		<h1 class="title"><a class="home" href="trang_chu.html">HHQ CLOTHING</a></h1>
+		<div class="row bg-body text-center">
+			<div class="col-9">
+				<nav class="navbar navbar-expand-lg navbar-light ">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a href="trang_chu.html">TRANG CHỦ</a>
+								</li>
+								<li class="nav-item">
+									<a href="cua_hang.html">CỬA HÀNG</a>
+								</li>
+								<li class="nav-item">
+									<a href="gioi_thieu.html">GIỚI THIỆU</a>
+								</li>
+								<li class="nav-item">
+									<a href="chinhsach_doitra.html">CHÍNH SÁCH</a>
+								</li>
+								<li class="nav-item">
+									<a href="lien_he.html">LIÊN HỆ</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col-3 text-end">
+				<div class="icon-head d-flex float-end">
+					<div class="search">
+						<ion-icon class="icon_search" name="search-outline"></ion-icon>
+					</div>
+					<div class="user">
+						<a href="dang_ky.html">
+							<ion-icon name="person-circle-outline"></ion-icon>
+						</a>
+					</div>
+					<div class="buy">
+						<a href="gio_hang.html">
+							<ion-icon name="bag-handle-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Body -->
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<div class="col-12 col-md-8 col-lg-8">
+						<div class="img_product">
+							<img class="product" src="PRODUCT/TSHIRT/VIBE TSHIRT.jpeg" alt="TSHIRT">
+						</div>
+						<div class="row">
+							<div class="col_3 col-3">
+								<div class="img_product">
+									<img class="product" src="PRODUCT/TSHIRT/VIBE TSHIRT_2.jpeg" alt="TSHIRT">
+								</div>
+							</div>
+							<div class="col_3 col-3">
+								<div class="img_product">
+									<img class="product" src="PRODUCT/TSHIRT/ VIBE TSHIRT 5.jpeg" alt="TSHIRT">
+								</div>
+							</div>
+							<div class="col_3 col-3">
+								<div class="img_product">
+									<img class="product" src="PRODUCT/TSHIRT/VIBE TSHIRT 4.jpeg" alt="TSHIRT">
+								</div>
+							</div>
+							<div class="col_3 col-3">
+								<div class="img_product">
+									<img class="product" src="PRODUCT/TSHIRT/VIBE TSHIRT 3.jpeg" alt="TSHIRT">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-4">
+						<div class="info">
+							<h2 class=""> MIKEBEAR TSHIRT</h2>
+							<p class="color"> Black</p>
+							<p class="price"> 850,000</p>
+							<p class="size"> Size:</p>
+							<div class="size_gr btn-group" role="group" aria-label="Basic radio toggle button group">
+								<input type="radio" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off"
+									checked>
+								<label class="btn rounded btn-outline-dark" for="btnradio1">S</label>
+
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+								<label class="btn rounded btn-outline-dark" for="btnradio2">M</label>
+
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+								<label class="btn rounded btn-outline-dark" for="btnradio3">L</label>
+
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+								<label class="btn rounded btn-outline-dark" for="btnradio4">XL</label>
+							</div>
+							<button type="button" class="btn_mua btn d-block btn-outline-dark" id="liveToastBtn">Thêm Vào Giỏ Hàng</button>
+
+							<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+								<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+									<div class="toast-header">
+										<strong class="me-auto">HHQ-CLOTHING</strong>
+										<small>Thank You</small>
+										<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+									</div>
+									<div class="toast-body">
+										Sản Phẩm Đã Được Thêm Vào Giỏ Hàng !
+									</div>
+								</div>
+							</div>
+							<script>
+								var toastTrigger = document.getElementById('liveToastBtn')
+								var toastLiveExample = document.getElementById('liveToast')
+								if (toastTrigger) {
+									toastTrigger.addEventListener('click', function () {
+										var toast = new bootstrap.Toast(toastLiveExample)
+
+										toast.show()
+									})
+								}
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h4 class="tieude-txt_2">Những Sản Phẩm Liên Quan</h4>
+		<div class="row">
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/TSHIRT/MIKEBEAR TSHIRT.jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">MIKEBEAR TSHIRT<br>850.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/TSHIRT/FREE SPIRIT TSHIRT .jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">FREE SPIRIT TSHIRT<br>750.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/TSHIRT/PRIME POLO BLACK .jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">PRIME POLO BLACK<br>800.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/TSHIRT/PRIME POLO WHITE.png" alt="TSHIRT">
+					</div>
+					<pre class="name_product">PRIME POLO BLACK<br>800.000
+						</pre>
+				</a>
+			</div>
+		</div>
+		<h4 class="tieude-txt_2">Những Sản Phẩm Bạn Có Thể Quan Tâm</h4>
+		<div class="row">
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/ACCESSORIES/PLAQUE LOGO CAP BLACK .jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">PLAQUE LOGO CAP BLACK<br>450.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/SHOES - SANDALS/MIKENCO COUTURE SLIPPERS BLACK .jpeg"
+							alt="TSHIRT">
+					</div>
+					<pre class="name_product">SLIPPERS BLACK<br>500.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/HOODIE/OLDSCHOOL HOODIE .jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">OLDSCHOOL HOODIE<br>1.200.000
+						</pre>
+				</a>
+			</div>
+			<div class="col_3 col-6 col-md-4 col-lg-3">
+				<a href="chitiet_sp.html">
+					<div class="img_product">
+						<img class="product" src="PRODUCT/PANTS/OUTLINE TRACKPANTS .jpeg" alt="TSHIRT">
+					</div>
+					<pre class="name_product">OUTLINE TRACKPANTS<br>750.000
+						</pre>
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+			<footer class="bg-light text-black text-center text-lg-start">
+				<div class="container p-4">
+					<div class="row">
+						<div class="col-6  col-md-12 col-lg-4">
+							<h5 class="text-uppercase">THỜI GIAN MỞ CỬA</h5>
+							<p> Thứ 2 - Thứ 6: 7:00 đến 21:00 <br /> Thứ 7 - Chủ nhật: 6:00 đến 23:00</p>
+						</div>
+						<div class="col-6  col-md-12 col-lg-4">
+							<h5>CHÍNH SÁCH</h5>
+							<p>Chính sách ưu đãi <br /> Chính sách bảo mật <br /> Chính sách giao nhận <br /> Chính sách
+								hoàn trả</p>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<h5>ĐĂNG KÝ</h5>
+							<p>Đăng ký để nhận được thông tin <br /> mới nhất từ chúng tôi</p>
+							<form class="d-flex justify-content-center align-items-center">
+								<input class="inp_email form-control" type="search" placeholder="Email...">
+								<button type="button" class="btn_dangki btn btn-dark">Đăng ký</button>
+							</form>
+							<div class="row_icon row">
+								<div class="col">
+									<ion-icon class="icon" name="logo-facebook"></ion-icon>
+								</div>
+								<div class="col">
+									<ion-icon class="icon" name="logo-instagram"></ion-icon>
+								</div>
+								<div class="col">
+									<ion-icon class="icon" name="mail-open-outline"></ion-icon>
+								</div>
+								<div class="col">
+									<ion-icon class="icon" name="logo-twitter"></ion-icon>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>

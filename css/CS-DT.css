@@ -1,0 +1,10 @@
+.word p{
+    font-family: Tahoma;
+    font-size: 13px;
+    letter-spacing:1.5px;
+    line-height:18px;
+    margin:13px 0px 20px;
+}
+.word{
+    margin: 0px 42px 50px 42px;
+}

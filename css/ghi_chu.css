@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/**/
+*{
+	font-family: Tahoma;
+}
+/*BODY PHẦN GHI CHÚ*/
+.dat_hang{
+	text-align: center;
+	color: #1333EF;
+	margin-top: 15px;
+}
+.cam_on{
+	text-align: center;
+}
+.thong_tin{
+	background: #A3A0A0;
+	text-align: center;
+	padding-top: 10px;
+	height: 60px;
+	font-weight: 700;
+}
+.back{
+	margin-bottom: 20px;
+}
