@@ -1,7 +1,4 @@
 /* ----- CSS HEADER ----- */
-*{
-	font-family: Tahoma;
-}
 h1.title{
 	font-family: Tahoma;
 	margin: 50px 0;
@@ -32,7 +29,6 @@ li {
 li a {
 	font-family: Tahoma;
 	text-align: center;
-	padding: 15px;
 	text-decoration: none;
 	color: black;
 }
@@ -47,9 +43,7 @@ li a:hover {
 .col-6 a{
 	text-decoration: none;
 }
-.sanpham_new{
-	margin: 0 52px;
-}
+
 .cap{
 	font-family: Tahoma;	
 	background-color: #0000009f;
@@ -59,7 +53,6 @@ li a:hover {
 	font-family: Tahoma;
 	font-size: 30px;
 	padding-top: 20px;
-	height: 100px;
 }
 
 .product{
